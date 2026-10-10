@@ -1,0 +1,236 @@
+{
+  "seed": 78213,
+  "checkpoints": 5,
+  "sample_sizes": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "results": [
+    {
+      "p": 0.001,
+      "method": "mixture",
+      "repetitions": 20000,
+      "failures": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0001844269639618992
+      ]
+    },
+    {
+      "p": 0.001,
+      "method": "spent_eb",
+      "repetitions": 20000,
+      "failures": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0001844269639618992
+      ]
+    },
+    {
+      "p": 0.001,
+      "method": "spent_hoeffding",
+      "repetitions": 20000,
+      "failures": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0001844269639618992
+      ]
+    },
+    {
+      "p": 0.001,
+      "method": "repeated_fixed_cp",
+      "repetitions": 20000,
+      "failures": 1564,
+      "rate": 0.0782,
+      "ci95": [
+        0.07451555112767683,
+        0.08200760642030858
+      ]
+    },
+    {
+      "p": 0.001,
+      "method": "repeated_normal",
+      "repetitions": 20000,
+      "failures": 20000,
+      "rate": 1.0,
+      "ci95": [
+        0.9998155730360381,
+        1.0
+      ]
+    },
+    {
+      "p": 0.01,
+      "method": "mixture",
+      "repetitions": 20000,
+      "failures": 15,
+      "rate": 0.00075,
+      "ci95": [
+        0.000419828139778952,
+        0.0012367097209177197
+      ]
+    },
+    {
+      "p": 0.01,
+      "method": "spent_eb",
+      "repetitions": 20000,
+      "failures": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0001844269639618992
+      ]
+    },
+    {
+      "p": 0.01,
+      "method": "spent_hoeffding",
+      "repetitions": 20000,
+      "failures": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0001844269639618992
+      ]
+    },
+    {
+      "p": 0.01,
+      "method": "repeated_fixed_cp",
+      "repetitions": 20000,
+      "failures": 8132,
+      "rate": 0.4066,
+      "ci95": [
+        0.3997814433025048,
+        0.4134457190670268
+      ]
+    },
+    {
+      "p": 0.01,
+      "method": "repeated_normal",
+      "repetitions": 20000,
+      "failures": 19988,
+      "rate": 0.9994,
+      "ci95": [
+        0.9989521555564096,
+        0.9996899340367671
+      ]
+    },
+    {
+      "p": 0.1,
+      "method": "mixture",
+      "repetitions": 20000,
+      "failures": 65,
+      "rate": 0.00325,
+      "ci95": [
+        0.0025091498279465993,
+        0.004140542575091908
+      ]
+    },
+    {
+      "p": 0.1,
+      "method": "spent_eb",
+      "repetitions": 20000,
+      "failures": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0001844269639618992
+      ]
+    },
+    {
+      "p": 0.1,
+      "method": "spent_hoeffding",
+      "repetitions": 20000,
+      "failures": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0001844269639618992
+      ]
+    },
+    {
+      "p": 0.1,
+      "method": "repeated_fixed_cp",
+      "repetitions": 20000,
+      "failures": 12809,
+      "rate": 0.64045,
+      "ci95": [
+        0.6337544464086156,
+        0.6471047035924135
+      ]
+    },
+    {
+      "p": 0.1,
+      "method": "repeated_normal",
+      "repetitions": 20000,
+      "failures": 17481,
+      "rate": 0.87405,
+      "ci95": [
+        0.8693722440571231,
+        0.8786187233979165
+      ]
+    },
+    {
+      "p": 0.5,
+      "method": "mixture",
+      "repetitions": 20000,
+      "failures": 80,
+      "rate": 0.004,
+      "ci95": [
+        0.003172987029703323,
+        0.004975909413663463
+      ]
+    },
+    {
+      "p": 0.5,
+      "method": "spent_eb",
+      "repetitions": 20000,
+      "failures": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0001844269639618992
+      ]
+    },
+    {
+      "p": 0.5,
+      "method": "spent_hoeffding",
+      "repetitions": 20000,
+      "failures": 74,
+      "rate": 0.0037,
+      "ci95": [
+        0.0029063789074663692,
+        0.004642815111573598
+      ]
+    },
+    {
+      "p": 0.5,
+      "method": "repeated_fixed_cp",
+      "repetitions": 20000,
+      "failures": 13098,
+      "rate": 0.6549,
+      "ci95": [
+        0.6482642533130287,
+        0.661490691800497
+      ]
+    },
+    {
+      "p": 0.5,
+      "method": "repeated_normal",
+      "repetitions": 20000,
+      "failures": 14323,
+      "rate": 0.71615,
+      "ci95": [
+        0.7098453372650563,
+        0.7223917753382287
+      ]
+    }
+  ]
+}

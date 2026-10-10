@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this research software when reusing the experiments."
+title: "When to Stop Physics-Informed Learning"
+type: software
+authors:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    affiliation: "School of Computing, Georgia Southern University"
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    email: "cemil@fairesresearch.org"
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+keywords:
+  - physics-informed neural networks
+  - confidence sequences
+  - error certification
+  - interval arithmetic
+  - sequential stopping

@@ -1,0 +1,35 @@
+{
+  "name": "poisson1_w24d2_uniform_s101",
+  "case": "poisson1",
+  "target": 0.01,
+  "rows": [
+    {
+      "m": 32,
+      "cells": 32,
+      "upper_mse": 1.8397457259933159,
+      "width": 1.8397457259933159,
+      "error_bound": 0.13742924352618235,
+      "seconds": 0.013637540978379548,
+      "cumulative_seconds": 0.013637540978379548
+    },
+    {
+      "m": 64,
+      "cells": 64,
+      "upper_mse": 0.10140788236746393,
+      "width": 0.10140788236746393,
+      "error_bound": 0.03226533001333632,
+      "seconds": 0.026535292039625347,
+      "cumulative_seconds": 0.040172833018004894
+    },
+    {
+      "m": 128,
+      "cells": 128,
+      "upper_mse": 0.006127091511366067,
+      "width": 0.006127091511366067,
+      "error_bound": 0.007930990652403462,
+      "seconds": 0.05407454201485962,
+      "cumulative_seconds": 0.09424737503286451
+    }
+  ],
+  "certified": true
+}

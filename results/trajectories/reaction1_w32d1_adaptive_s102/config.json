@@ -1,0 +1,14 @@
+{
+  "case": "reaction1",
+  "seed": 102,
+  "width": 32,
+  "depth": 1,
+  "sampling": "adaptive",
+  "device": "cpu",
+  "dtype": "torch.float64",
+  "steps": 3000,
+  "parameters": 97,
+  "torch": "2.4.1",
+  "platform": "macOS-14.8.1-arm64-arm-64bit",
+  "seconds": 3.306984250084497
+}

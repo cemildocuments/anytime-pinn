@@ -1,0 +1,14 @@
+{
+  "case": "poisson1",
+  "seed": 105,
+  "width": 24,
+  "depth": 2,
+  "sampling": "adaptive",
+  "device": "cpu",
+  "dtype": "torch.float64",
+  "steps": 3000,
+  "parameters": 673,
+  "torch": "2.4.1",
+  "platform": "macOS-14.8.1-arm64-arm-64bit",
+  "seconds": 4.520600541960448
+}
